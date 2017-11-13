@@ -2,7 +2,7 @@
 	name = melnikos
 	email = sergej.melnikowitsch@kom.tu-darmstadt.de
 [alias]
-        st = status -a
+        st = status 
         lg = log --graph --pretty=format:'%cred%h%creset -%c(yellow)%d%creset %s %cgreen(%cr) %cblue<%an>%creset' --abbrev-commit --date=relative
         co = checkout
         s = status --short
