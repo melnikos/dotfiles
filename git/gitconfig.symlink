@@ -15,6 +15,12 @@
 
 [core]
         editor = nvim
+[difftool]
+	prompt = true
+[difftool "nvimdiff"]
+	    cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
+[diff]
+	tool = nvimdiff
 [color]
         diff = auto
         status = auto

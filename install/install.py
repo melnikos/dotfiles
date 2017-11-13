@@ -9,6 +9,8 @@ GitHubPackages = (Tool("junegunn/fzf.git", ".fzf"),
 
 Tools = (
             'git',
+            'curl',
+            'neovim',
             'silversearcher-ag',
             'ack-grep',
             'tmux',
