@@ -21,7 +21,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'chriskempson/base16-vim'
 
 " utilities
-Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] } | Plug 'Xuyuanp/nerdtree-git-plugin' | Plug 'ryanoasis/vim-devicons' " file drawer
+Plug 'scrooloose/nerdtree' 
 Plug 'tpope/vim-fugitive' " amazing git wrapper for vim
 Plug 'w0rp/ale' " Asynchonous linting engine
 Plug 'ervandew/supertab' " Perform all your vim insert mode completions with Tab

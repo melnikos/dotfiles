@@ -18,10 +18,10 @@ Tools = (
         )
 hello = "dumm"
 
-install(Tools)
+#install(Tools)
 
-#for tool in GitHubPackages:
-#    gitClone(tool.repo, tool.dir)
+for tool in GitHubPackages:
+    gitClone(tool.repo, tool.dir)
 
 
 

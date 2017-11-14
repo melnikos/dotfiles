@@ -1,6 +1,6 @@
 [user]
-	name = melnikos
-	email = sergej.melnikowitsch@kom.tu-darmstadt.de
+	name = melnikow
+	email = sergej.melnikowitsch@kuka.com
 [alias]
         st = status -a
         lg = log --graph --pretty=format:'%cred%h%creset -%c(yellow)%d%creset %s %cgreen(%cr) %cblue<%an>%creset' --abbrev-commit --date=relative
