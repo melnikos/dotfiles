@@ -42,7 +42,11 @@ nnoremap # *
 nnoremap ü [c
 nnoremap + ]c
 
-" Lightline
+" terminal
+tmap <ESC> <C-\><C-N>
+nnoremap <leader>t :sp <CR> <C-W><C-J> <bar> :terminal <CR> A
+nnoremap <leader>vt :vsp <CR> <C-W><C-L> <bar> :terminal <CR> A
+
 " Lightline
 let g:lightline = {
 \ 'colorscheme': 'wombat',
