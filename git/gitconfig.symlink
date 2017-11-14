@@ -2,7 +2,7 @@
 	name = melnikow
 	email = sergej.melnikowitsch@kuka.com
 [alias]
-        st = status -a
+        st = status 
         lg = log --graph --pretty=format:'%cred%h%creset -%c(yellow)%d%creset %s %cgreen(%cr) %cblue<%an>%creset' --abbrev-commit --date=relative
         co = checkout
         s = status --short
@@ -15,6 +15,12 @@
 
 [core]
         editor = nvim
+[difftool]
+	prompt = true
+[difftool "nvimdiff"]
+	    cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
+[diff]
+	tool = nvimdiff
 [color]
         diff = auto
         status = auto
