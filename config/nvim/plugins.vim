@@ -31,7 +31,10 @@ Plug 'ervandew/supertab' " Perform all your vim insert mode completions with Tab
 set rtp+=~/.fzf
 set rtp+=/usr/local/opt/fzf
 Plug 'junegunn/fzf.vim' " fuzzy file finder and so much more
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
+Plug 'idanarye/vim-merginal'
 Plug 'roman/golden-ratio' " applies golden ratio on current window
 call plug#end()
