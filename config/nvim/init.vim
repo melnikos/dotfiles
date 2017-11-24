@@ -34,6 +34,7 @@ vnoremap <up> dkP
 vnoremap <down> djP
 inoremap jj <ESC>
 nnoremap <leader>n :NERDTreeToggle<CR>
+nnoremap <leader>m :Merginal<CR>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>gs :Gstatus<CR>

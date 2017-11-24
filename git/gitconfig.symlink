@@ -3,7 +3,7 @@
 	email = sergej.melnikowitsch@kuka.com
 [alias]
         st = status 
-        lg = log --graph --pretty=format:'%cred%h%creset -%c(yellow)%d%creset %s %cgreen(%cr) %cblue<%an>%creset' --abbrev-commit --date=relative
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
         co = checkout
         s = status --short
         cob = checkout -b
