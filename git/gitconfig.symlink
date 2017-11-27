@@ -2,7 +2,6 @@
 	name = melnikos
 	email = sergej.melnikowitsch@kom.tu-darmstadt.de
 [alias]
-        st = status 
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
         co = checkout
         s = status --short
@@ -11,6 +10,7 @@
         br = branch -v
         wslog = log --ignore-space-at-eol -p -w -b
         wsdiff = diff --ignore-space-at-eol -w -b --no-ext-diff
+	dn = diff --name-status
 # vim: set et :
 
 [core]
