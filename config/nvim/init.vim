@@ -23,8 +23,8 @@ set mouse=a
 set diffopt+=vertical
 " Maps CTRL-A to mark everything:
 map <C-a> <esc>ggVG<CR>
-nnoremap <C-H> <C-W><C-H>
 " shortcuts for easier split : change splitting window faster 
+nnoremap <C-H> <C-W><C-H>
 nnoremap <C-J> <C-W><C-J> 
 nnoremap <C-K> <C-W><C-K> 
 nnoremap <C-L> <C-W><C-L> 
@@ -38,6 +38,7 @@ nnoremap <leader>m :Merginal<CR>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>gs :Gstatus<CR>
+nnoremap <leader>q :q<CR>
 nnoremap ä #
 nnoremap # *
 nnoremap ü [c
