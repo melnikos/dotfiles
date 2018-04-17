@@ -18,12 +18,12 @@ call plug#begin('~/.config/nvim/plugged')
 
 " colorschemes
 Plug 'joshdick/onedark.vim'
-Plug 'chriskempson/base16-vim'
+" Plug 'chriskempson/base16-vim'
 
 " utilities
 Plug 'scrooloose/nerdtree' 
 Plug 'tpope/vim-fugitive' " amazing git wrapper for vim
-Plug 'w0rp/ale' " Asynchonous linting engine
+" Plug 'w0rp/ale' " Asynchonous linting engine
 Plug 'ervandew/supertab' " Perform all your vim insert mode completions with Tab
 "Plug 'jistr/vim-nerdtree-tabs'
 
@@ -32,9 +32,9 @@ set rtp+=~/.fzf
 set rtp+=/usr/local/opt/fzf
 Plug 'junegunn/fzf.vim' " fuzzy file finder and so much more
 " Plug 'itchyny/lightline.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'airblade/vim-gitgutter'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+" Plug 'airblade/vim-gitgutter'
 Plug 'idanarye/vim-merginal'
-Plug 'roman/golden-ratio' " applies golden ratio on current window
+" Plug 'roman/golden-ratio' " applies golden ratio on current window
 call plug#end()

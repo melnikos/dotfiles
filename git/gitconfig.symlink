@@ -8,10 +8,11 @@
         s = status --short
         cob = checkout -b
 	com = checkout master
+	cm = commit -m
+	meff = merge --ff-only
         ss  = status
         br = branch -v
-        wslog = log --ignore-space-at-eol -p -w -b
-        wsdiff = diff --ignore-space-at-eol -w -b --no-ext-diff
+	diffns = diff --name-status
 # vim: set et :
 
 [core]
@@ -46,3 +47,9 @@
 [push]
 # push will only do the current branch, not all branches
 	default = current
+[pull]
+	default = current
+[http]
+[https]
+[remote "origin"]
+[remote "origin"]
