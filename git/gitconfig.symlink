@@ -2,17 +2,20 @@
 	name = melnikow
 	email = sergej.melnikowitsch@kuka.com
 [alias]
-        st = status 
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-        co = checkout
-        s = status --short
-        cob = checkout -b
+    co = checkout
+    s = status --short
+    cob = checkout -b
 	com = checkout master
 	cm = commit -m
 	meff = merge --ff-only
-        ss  = status
-        br = branch -v
+    ss  = status
+    br = branch -v
 	diffns = diff --name-status
+    cp = cherry-pick
+    mc = merge --continue
+    rc = rebase --continue
+
 # vim: set et :
 
 [core]

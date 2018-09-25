@@ -19,6 +19,9 @@ set infercase               " Completion recognizes capitalization
 set laststatus=2            " Always show the status bar
 set linebreak               " Break long lines by word, not char
 set mouse=a
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 set diffopt+=vertical
 " Maps CTRL-A to mark everything:
@@ -37,14 +40,15 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>sf :NERDTreeFind<CR>
 nnoremap <leader>m :Merginal<CR>
 nnoremap <leader>b :Buffers<CR>
-nnoremap <leader>f :Files<CR>
+nnoremap <leader>f :GFiles<CR>
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>q :q<CR>
 nnoremap ä #
 nnoremap # *
 nnoremap ü [c
 nnoremap + ]c
-
+" search and replace what is highlighted
+vnoremap <C-r> "hy:%s/<C-r>h//g<left><left>
 " terminal
 tmap <ESC> <C-\><C-N>
 nnoremap <leader>t :sp <CR> <C-W><C-J> <bar> :terminal <CR> A

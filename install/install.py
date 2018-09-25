@@ -12,13 +12,11 @@ Tools = (
             'curl',
             'neovim',
             'silversearcher-ag',
-            'ack-grep',
-            'tmux',
-            'zsh'
+            'ack-grep'
         )
 hello = "dumm"
 
-#install(Tools)
+install(Tools)
 
 for tool in GitHubPackages:
     gitClone(tool.repo, tool.dir)
