@@ -3,14 +3,19 @@
 	email = sergej.melnikowitsch@kom.tu-darmstadt.de
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-        co = checkout
-        s = status --short
-        cob = checkout -b
-        ss  = status
-        br = branch -v
-        wslog = log --ignore-space-at-eol -p -w -b
-        wsdiff = diff --ignore-space-at-eol -w -b --no-ext-diff
-	dn = diff --name-status
+    co = checkout
+    s = status --short
+    cob = checkout -b
+	com = checkout master
+	cm = commit -m
+	meff = merge --ff-only
+    ss  = status
+    br = branch -v
+	diffns = diff --name-status
+    cp = cherry-pick
+    mc = merge --continue
+    rc = rebase --continue
+
 # vim: set et :
 
 [core]
@@ -45,3 +50,9 @@
 [push]
 # push will only do the current branch, not all branches
 	default = current
+[pull]
+	default = current
+[http]
+[https]
+[remote "origin"]
+[remote "origin"]

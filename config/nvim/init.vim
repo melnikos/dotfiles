@@ -4,7 +4,7 @@ set nocompatible              " be iMproved, required
 set autoread                " detect when a file is changed
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --ignore .git -l -g ""' "take ag as default search and consider hidden files
 
-colorscheme koehler
+colorscheme onedark
 set history=1000            " change history to 1000
 set textwidth=120
 " remap leader to 'ö'
@@ -19,6 +19,9 @@ set infercase               " Completion recognizes capitalization
 set laststatus=2            " Always show the status bar
 set linebreak               " Break long lines by word, not char
 set mouse=a
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 set diffopt+=vertical
 " Maps CTRL-A to mark everything:
@@ -34,24 +37,27 @@ vnoremap <up> dkP
 vnoremap <down> djP
 inoremap jj <ESC>
 nnoremap <leader>n :NERDTreeToggle<CR>
+nnoremap <leader>sf :NERDTreeFind<CR>
 nnoremap <leader>m :Merginal<CR>
 nnoremap <leader>b :Buffers<CR>
-nnoremap <leader>f :Files<CR>
+nnoremap <leader>f :GFiles<CR>
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>q :q<CR>
 nnoremap ä #
 nnoremap # *
 nnoremap ü [c
 nnoremap + ]c
-
+" search and replace what is highlighted
+vnoremap <C-r> "hy:%s/<C-r>h//g<left><left>
 " terminal
 tmap <ESC> <C-\><C-N>
 nnoremap <leader>t :sp <CR> <C-W><C-J> <bar> :terminal <CR> A
 nnoremap <leader>vt :vsp <CR> <C-W><C-L> <bar> :terminal <CR> A
-
+"Remove all trailing whitespace by pressing F5
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 " Lightline
 let g:lightline = {
-\ 'colorscheme': 'wombat',
+\ 'colorscheme': 'onedark',
 \ 'active': {
 \   'left': [['mode', 'paste'], ['filename', 'modified']],
 \   'right': [['lineinfo'], ['percent'], ['readonly', 'linter_warnings', 'linter_errors', 'linter_ok']]
