@@ -1,6 +1,6 @@
 [user]
-	name = melnikow
-	email = sergej.melnikowitsch@kuka.com
+	name = melnikos
+	email = melnikowitsch.s@gmail.com
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     co = checkout

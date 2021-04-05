@@ -14,8 +14,6 @@ Tools = (
             'silversearcher-ag',
             'ack-grep'
         )
-hello = "dumm"
-
 install(Tools)
 
 for tool in GitHubPackages:

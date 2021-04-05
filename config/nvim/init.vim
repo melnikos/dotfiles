@@ -26,8 +26,8 @@ set expandtab
 set diffopt+=vertical
 " Maps CTRL-A to mark everything:
 map <C-a> <esc>ggVG<CR>
-nnoremap <C-H> <C-W><C-H>
 " shortcuts for easier split : change splitting window faster 
+nnoremap <C-H> <C-W><C-H>
 nnoremap <C-J> <C-W><C-J> 
 nnoremap <C-K> <C-W><C-K> 
 nnoremap <C-L> <C-W><C-L> 
