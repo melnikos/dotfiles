@@ -23,6 +23,7 @@ Plug 'joshdick/onedark.vim'
 " utilities
 Plug 'scrooloose/nerdtree' 
 Plug 'tpope/vim-fugitive' " amazing git wrapper for vim
+Plug 'junegunn/gv.vim'
 " Plug 'w0rp/ale' " Asynchonous linting engine
 Plug 'ervandew/supertab' " Perform all your vim insert mode completions with Tab
 "Plug 'jistr/vim-nerdtree-tabs'

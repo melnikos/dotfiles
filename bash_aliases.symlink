@@ -1,8 +1,5 @@
 alias vim='nvim'
 alias vi='nvim'
-alias cds='cd ~/Kcc/trunk/src'
-alias cdp='cd ~/Kcc/trunk/src/projects/jlr-nitra'
-alias cdk='cd ~/Kcc'
 alias cdu='cd ..'
 alias cduu='cd ../..'
 # some more ls aliases
@@ -10,3 +7,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias grd='./gradlew'
+
+alias ff='find . -name'
+alias rr='rm -rf'
+alias 2cp='xclip -selection c'

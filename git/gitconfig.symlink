@@ -6,11 +6,14 @@
     co = checkout
     s = status --short
     cob = checkout -b
+    cod = checkout develop
 	com = checkout master
 	cm = commit -m
 	meff = merge --ff-only
     ss  = status
     br = branch -v
+    bd = branch --delete
+    fbd = branch --delete --force
 	diffns = diff --name-status
     cp = cherry-pick
     mc = merge --continue
@@ -56,3 +59,5 @@
 [https]
 [remote "origin"]
 [remote "origin"]
+[credential]
+	helper = store
