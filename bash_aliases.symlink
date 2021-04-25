@@ -2,6 +2,7 @@ alias vim='nvim'
 alias vi='nvim'
 alias cdu='cd ..'
 alias cduu='cd ../..'
+alias cds='cd ~/src'
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -11,3 +12,9 @@ alias grd='./gradlew'
 alias ff='find . -name'
 alias rr='rm -rf'
 alias 2cp='xclip -selection c'
+
+# docker stuff
+alias dk='docker'
+alias dkc='docker-compose'
+alias dke='docker exec'
+
