@@ -1,7 +1,8 @@
 import os, fnmatch, glob
+import pathlib
 
 HOME = os.environ["HOME"]
-DOTFILES = HOME + os.path.sep + ".dotfiles"
+DOTFILES = pathlib.Path(__file__).parent.parent.resolve()
 CONFIG = "config"
 SYMLINK = '.symlink'
 OLD_VIMRC = ".vimrc"
