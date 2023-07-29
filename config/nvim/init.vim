@@ -8,7 +8,10 @@ colorscheme onedark
 set history=1000            " change history to 1000
 set textwidth=120
 " remap leader to 'ö'
-:let mapleader = "ö"
+":let mapleader = "ö"
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+
 " set relative line number
 set number
 set relativenumber

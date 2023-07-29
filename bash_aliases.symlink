@@ -4,7 +4,7 @@ alias cdu='cd ..'
 alias cduu='cd ../..'
 alias cds='cd ~/src'
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -alhF'
 alias la='ls -A'
 alias l='ls -CF'
 alias grd='./gradlew'
@@ -18,3 +18,8 @@ alias dk='docker'
 alias dkc='docker-compose'
 alias dke='docker exec'
 
+# python
+alias py='python3'
+
+# projects
+alias nbr='sudo openvpn --config /home/sigi/Documents/NBR/nbr.conf --auth-user-pass /home/sigi/Documents/NBR/pass.txt'

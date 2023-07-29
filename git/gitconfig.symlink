@@ -7,7 +7,7 @@
     s = status --short
     cob = checkout -b
     cod = checkout develop
-	com = checkout master
+	com = checkout main
 	cm = commit -m
 	meff = merge --ff-only
     ss  = status
@@ -61,3 +61,5 @@
 [remote "origin"]
 [credential]
 	helper = store
+[safe]
+	directory = /mnt/media/Dokumente/Bewerbung/CV/latex-briefvorlage
