@@ -61,5 +61,3 @@
 [remote "origin"]
 [credential]
 	helper = store
-[safe]
-	directory = /mnt/media/Dokumente/Bewerbung/CV/latex-briefvorlage

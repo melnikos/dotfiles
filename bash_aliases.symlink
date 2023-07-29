@@ -20,6 +20,3 @@ alias dke='docker exec'
 
 # python
 alias py='python3'
-
-# projects
-alias nbr='sudo openvpn --config /home/sigi/Documents/NBR/nbr.conf --auth-user-pass /home/sigi/Documents/NBR/pass.txt'
