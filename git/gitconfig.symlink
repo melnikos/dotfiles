@@ -59,5 +59,4 @@
 [https]
 [remote "origin"]
 [remote "origin"]
-[credential]
-	helper = store
+
