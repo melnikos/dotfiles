@@ -8,8 +8,10 @@ colorscheme onedark
 set history=1000            " change history to 1000
 set textwidth=120
 " remap leader to 'ö'
+":let mapleader = "ö"
 nnoremap <SPACE> <Nop>
-:let mapleader = " "
+let mapleader=" "
+
 " set relative line number
 set number
 set relativenumber
@@ -42,7 +44,7 @@ nnoremap <leader>sf :NERDTreeFind<CR>
 nnoremap <leader>m :Merginal<CR>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>f :GFiles<CR>
-nnoremap <leader>gs :Git<CR>
+nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>q :q<CR>
 nnoremap ä #
 nnoremap # *
